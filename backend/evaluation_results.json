@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-11-10T16:10:28.554046",
+  "test_data_size": 50,
+  "bert": {
+    "agency": {
+      "accuracy": 0.78,
+      "cer": 0.27885714285714286,
+      "wer": 0.24,
+      "per": null,
+      "similarity": 0.7211428571428571,
+      "precision": 0.7457272727272727,
+      "recall": 0.78,
+      "f1": 0.7518290882244371
+    },
+    "document_type": {
+      "accuracy": 0.72,
+      "cer": 0.2316666666666667,
+      "wer": 0.28,
+      "per": null,
+      "similarity": 0.7683333333333333,
+      "precision": 0.7101911764705884,
+      "recall": 0.72,
+      "f1": 0.6857321918191484
+    },
+    "overall_accuracy": 0.75,
+    "overall_similarity": 0.7447380952380952,
+    "overall_cer": 0.2552619047619048,
+    "overall_wer": 0.26,
+    "overall_per": null,
+    "processing_time": 201.21091556549072,
+    "avg_time_per_sample": 4.024218311309815,
+    "error_count": 0
+  },
+  "gemma": {
+    "agency": {
+      "accuracy": 0.06,
+      "cer": 0.8739340659340656,
+      "wer": 0.95,
+      "per": null,
+      "similarity": 0.12606593406593436,
+      "precision": 0.2,
+      "recall": 0.06,
+      "f1": 0.09230769230769231
+    },
+    "document_type": {
+      "accuracy": 0.02,
+      "cer": 1.4775555555555553,
+      "wer": 2.3,
+      "per": null,
+      "similarity": -0.4775555555555553,
+      "precision": 0.04,
+      "recall": 0.02,
+      "f1": 0.026666666666666665
+    },
+    "overall_accuracy": 0.04,
+    "overall_similarity": -0.17574481074481046,
+    "overall_cer": 1.1757448107448105,
+    "overall_wer": 1.625,
+    "overall_per": null,
+    "processing_time": 162.8131639957428,
+    "avg_time_per_sample": 3.256263279914856,
+    "error_count": 0
+  }
+}
